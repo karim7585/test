@@ -1,0 +1,21 @@
+"repositories": [
+	{
+		"type": "package"
+		"package": {
+		
+			"name": "gmg/php-utils",
+			"description": "GMG PHP common cross-project classes & functions",
+			"type": "library",
+			"version": "dev",
+			"source": {
+				"url": "https://github.com/GmgSante/GMG-PHP.git",
+				"type": "master"
+			},
+			"autoload": {
+				"psr-0": {
+					"Utils": "src/"
+				}
+			}
+		}
+	}
+],
