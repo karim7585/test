@@ -4,3 +4,4 @@ php:
 
 script:
    - composer install
+   - php-cs-fixer fix src/
