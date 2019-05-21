@@ -4,4 +4,5 @@ php:
 
 script:
    - composer install
-   - vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix src/
+   - vendor/bin/php-cs-fixer/php-cs-fixer fix src/
+   - vendor/bin/phpunit -c test/
